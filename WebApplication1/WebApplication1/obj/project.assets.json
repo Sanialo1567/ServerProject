@@ -1,0 +1,134 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v5.0": {
+      "BusinessLogicLayer/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v5.0",
+        "dependencies": {
+          "DataAccessLayer": "1.0.0",
+          "DbMigrations": "1.0.0"
+        }
+      },
+      "DataAccessLayer/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v5.0",
+        "dependencies": {
+          "DbMigrations": "1.0.0"
+        }
+      },
+      "DbMigrations/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v5.0"
+      }
+    },
+    ".NETFramework,Version=v5.0/win7-x86": {
+      "BusinessLogicLayer/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v5.0",
+        "dependencies": {
+          "DataAccessLayer": "1.0.0",
+          "DbMigrations": "1.0.0"
+        }
+      },
+      "DataAccessLayer/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v5.0",
+        "dependencies": {
+          "DbMigrations": "1.0.0"
+        }
+      },
+      "DbMigrations/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v5.0"
+      }
+    }
+  },
+  "libraries": {
+    "BusinessLogicLayer/1.0.0": {
+      "type": "project",
+      "path": "../BusinessLogicLayer/BusinessLogicLayer.csproj",
+      "msbuildProject": "../BusinessLogicLayer/BusinessLogicLayer.csproj"
+    },
+    "DataAccessLayer/1.0.0": {
+      "type": "project",
+      "path": "../DataAccessLayer/DataAccessLayer.csproj",
+      "msbuildProject": "../DataAccessLayer/DataAccessLayer.csproj"
+    },
+    "DbMigrations/1.0.0": {
+      "type": "project",
+      "path": "../DbMigrations/DbMigrations.csproj",
+      "msbuildProject": "../DbMigrations/DbMigrations.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v5.0": [
+      "BusinessLogicLayer >= 1.0.0",
+      "DataAccessLayer >= 1.0.0",
+      "DbMigrations >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Александра\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Александра\\Desktop\\folder\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
+      "projectName": "WebApplication1",
+      "projectPath": "C:\\Users\\Александра\\Desktop\\folder\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
+      "packagesPath": "C:\\Users\\Александра\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Александра\\Desktop\\folder\\WebApplication1\\WebApplication1\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Александра\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net50"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net50": {
+          "targetAlias": "net5.0",
+          "projectReferences": {
+            "C:\\Users\\Александра\\Desktop\\folder\\WebApplication1\\BusinessLogicLayer\\BusinessLogicLayer.csproj": {
+              "projectPath": "C:\\Users\\Александра\\Desktop\\folder\\WebApplication1\\BusinessLogicLayer\\BusinessLogicLayer.csproj"
+            },
+            "C:\\Users\\Александра\\Desktop\\folder\\WebApplication1\\DataAccessLayer\\DataAccessLayer.csproj": {
+              "projectPath": "C:\\Users\\Александра\\Desktop\\folder\\WebApplication1\\DataAccessLayer\\DataAccessLayer.csproj"
+            },
+            "C:\\Users\\Александра\\Desktop\\folder\\WebApplication1\\DbMigrations\\DbMigrations.csproj": {
+              "projectPath": "C:\\Users\\Александра\\Desktop\\folder\\WebApplication1\\DbMigrations\\DbMigrations.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net50": {
+        "targetAlias": "net5.0"
+      }
+    },
+    "runtimes": {
+      "win7-x86": {
+        "#import": []
+      }
+    }
+  }
+}

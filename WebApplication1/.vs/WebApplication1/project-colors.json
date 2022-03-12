@@ -1,0 +1,31 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "a189a6dd-70dc-4b4e-8bf2-2e117a49688c": {
+      "ProjectGuid": "a189a6dd-70dc-4b4e-8bf2-2e117a49688c",
+      "DisplayName": "WebApplication1",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Прочие файлы",
+      "ColorIndex": -1
+    },
+    "8cc2b73d-57a2-4701-8246-2022e4c793c0": {
+      "ProjectGuid": "8cc2b73d-57a2-4701-8246-2022e4c793c0",
+      "DisplayName": "DbMigrations",
+      "ColorIndex": 1
+    },
+    "992f7b0b-bbb1-48d5-9dad-701a887f3a1d": {
+      "ProjectGuid": "992f7b0b-bbb1-48d5-9dad-701a887f3a1d",
+      "DisplayName": "DataAccessLayer",
+      "ColorIndex": 2
+    },
+    "fdc64da6-0ea8-4a4f-b7c8-c47b93766bb8": {
+      "ProjectGuid": "fdc64da6-0ea8-4a4f-b7c8-c47b93766bb8",
+      "DisplayName": "BusinessLogicLayer",
+      "ColorIndex": 3
+    }
+  },
+  "NextColorIndex": 4
+}
